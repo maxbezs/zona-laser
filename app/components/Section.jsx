@@ -1,7 +1,12 @@
 const Section = ({ title, content }) => {
   return (
-    <div className="mt-4">
-      <h2 className=" font-bold">{title}</h2>
+    <div className="mt-6">
+      <h2
+        className="tracking-wider	
+ font-bold font-cfont text-orange-700 text-2xl"
+      >
+        {title}
+      </h2>
       {content.map((item, index) =>
         typeof item === "string" ? (
           <p key={index}>{item}</p>

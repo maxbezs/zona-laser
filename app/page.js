@@ -5,15 +5,18 @@ import { Video } from "./components/Video";
 import Section from "./components/Section";
 import { depilationInfo, massageInfo } from "./data";
 import Button from "./components/Button";
-import Footer from "./components/Footer";
-
+export const metadata = {
+  title: "Nowoczesny Salon Urody: Profesjonalna Depilacja Laserowa -30%",
+  description:
+    " Skorzystaj z wyjątkowej oferty i ciesz się gładką skórą z 30% rabatem na pierwszą wizytę! Odwiedź nas już dziś i odkryj skuteczność naszych zaawansowanych technologii w usuwaniu zbędnego owłosienia.",
+};
 export default function Home() {
   return (
-    <div className="flex flex-col p-2">
+    <div className="flex flex-col p-4">
       <Header />
-      <div className="mt-56">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-2xl">Depilacja laserowa w Krakowie</h1>
+      <div className="mt-48">
+        <div className="flex flex-col gap-4 relative p-6">
+          <h1 className="text-2xl ">Depilacja laserowa w Krakowie</h1>
           <p>
             DLA NOWYCH KLIENTÓW! Zniżka -30% na depilację laserową dla nowych
             klientów na pierwszą wizytę
@@ -25,10 +28,19 @@ export default function Home() {
           >
             Uzyskać zniżkę
           </Button>
+          <Image
+            alt="lady"
+            src="/bg-lady.jpg"
+            fill
+            className="w-full object-cover relative -z-10"
+          />
         </div>
 
         <div>
-          <h2 id="laser" className="text-center text-2xl">
+          <h2
+            id="laser"
+            className="text-center text-4xl uppercase font-cfont bg-[#faf1ea] py-4 rounded-xl my-4"
+          >
             Depilacja laserowa
           </h2>
           <Suspense fallback={"Loading..."}>
@@ -44,7 +56,9 @@ export default function Home() {
         </div>
         <div id="masaz"></div>
         <div>
-          <h2 className=" text-center text-2xl">Masaz</h2>
+          <h2 className="text-center text-4xl uppercase font-cfont bg-[#faf1ea] py-4 rounded-xl my-4">
+            Masaz
+          </h2>
           <Suspense fallback={"Loading..."}>
             <Video url="https://videos.pexels.com/video-files/855401/855401-uhd_2560_1440_25fps.mp4" />
           </Suspense>
@@ -57,52 +71,65 @@ export default function Home() {
           ))}
         </div>
         <div>
-          <h2 className="text-center text-2xl">Nasz zespół</h2>
+          <h2 className="text-center text-4xl uppercase font-cfont bg-[#faf1ea] py-4 rounded-xl my-4">
+            Nasz zespół
+          </h2>
           <div className="grid grid-cols-2 gap-4">
-            <div>
+            <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
                 src="/logo.png"
                 width="160"
                 height="160"
+                className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
               />
-              <h4>John Smith</h4>
+              <h4 className="font-cfont text-xl tracking-wider text-center text-orange-700">
+                John Smith
+              </h4>
               <p>Laser</p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
                 src="/logo.png"
                 width="160"
                 height="160"
+                className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
               />
-              <h4>John Smith</h4>
+              <h4 className="font-cfont text-xl tracking-wider text-center text-orange-700">
+                John Smith
+              </h4>
               <p>Laser</p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
                 src="/logo.png"
                 width="160"
                 height="160"
+                className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
               />
-              <h4>John Smith</h4>
+              <h4 className="font-cfont text-xl tracking-wider text-center text-orange-700">
+                John Smith
+              </h4>
               <p>Laser</p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
                 src="/logo.png"
                 width="160"
                 height="160"
+                className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain	"
               />
-              <h4>John Smith</h4>
+              <h4 className="font-cfont text-xl tracking-wider text-center text-orange-700">
+                John Smith
+              </h4>
               <p>Laser</p>
             </div>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

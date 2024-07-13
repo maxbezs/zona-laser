@@ -15,7 +15,7 @@ export const Video = ({ url }) => {
     }
   };
   return (
-    <div className="grid grid-cols-1 ">
+    <div className="grid grid-cols-1 rounded-xl overflow-hidden">
       <div className="relative">
         <video
           preload="auto"
