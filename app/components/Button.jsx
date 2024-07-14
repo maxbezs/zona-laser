@@ -1,21 +1,24 @@
 import Link from "next/link";
 
-const Button = ({ className = "", href, children, variant }) => {
+const Button = ({
+  className = "",
+  href,
+  children,
+  variant,
+  color = "russet",
+}) => {
   let buttonClassName =
-    " align-baseline  cursor-pointer select-none  no-underline  ";
+    "align-baseline cursor-pointer select-none no-underline ";
 
   switch (variant) {
     case "secondary":
-      buttonClassName +=
-        "bg-orange-400 text-black py-3 px-4 w-fit rounded-full";
+      buttonClassName += `text-[#462919]  py-3 px-4 w-fit rounded-xl bg-[#D9B493]`;
       break;
-    case "outline":
-      buttonClassName +=
-        " bg-transparent text-black underline decoration-orange-700 underline-offset-2 w-full";
+    case "underline":
+      buttonClassName += `text-[#ECDAC9] underline decoration-${color}-500 underline-offset-2 w-full`;
       break;
     default:
-      buttonClassName +=
-        "bg-orange-700 text-white py-3 px-4 w-fit rounded-full";
+      buttonClassName += `text-white bg-[#8B5132] py-3 px-4 w-fit rounded-lg`;
   }
 
   return (

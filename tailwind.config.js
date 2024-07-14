@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cfont: ["var(--font-cfont)", ...fontFamily.sans],
+        opensans: ["var(--font-opensans)", ...fontFamily.sans],
+        montserrat: ["var(--font-montserrat)"],
       },
     },
   },

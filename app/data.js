@@ -222,10 +222,4 @@ export const massageInfo = [
       },
     ],
   },
-  {
-    title: "W jakim wieku można rozpocząć masaże?",
-    content: [
-      "Masaż może być korzystny dla osób w każdym wieku, od dzieci po osoby starsze. W przypadku dzieci zawsze należy skonsultować się z lekarzem przed rozpoczęciem sesji masażu.",
-    ],
-  },
 ];

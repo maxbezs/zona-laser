@@ -34,11 +34,11 @@ const Header = () => {
 
   return (
     <header
-      className={`bg-[#faf1ea] border-b-[1px] border-orange-300 fixed top-0 left-0 w-full transition-transform duration-300 filter z-50  transform ${
+      className={`bg-[#B28363] border-b-4 border-[#ECDAC9] fixed top-0 left-0 w-full transition-transform duration-300 filter z-50  transform ${
         visible ? "translate-y-0 " : "-translate-y-full "
       } `}
     >
-      <p className="py-3 w-full text-center underline bg-orange-100">
+      <p className="py-3 w-full font-opensans text-center underline bg-[#D9B493]">
         Piłsudskiego 19, 31-110, Kraków
       </p>
       <div className="px-6 mt-4 ">
@@ -46,13 +46,13 @@ const Header = () => {
           <Link href="/">
             <Image
               alt="zona laser logo"
-              src="/logo.png"
-              width="120"
+              src="/logo.svg"
+              width="140"
               height="120"
               priority={true}
             />
           </Link>
-          <p className=" text-right">+48123456789</p>
+          <p className="font-opensans text-white text-center">+48731588515</p>
 
           <Button href="https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow">
             Booksy
@@ -66,15 +66,15 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3 divide-x-2 divide-orange-300 py-4 justify-center text-center align-middle">
-          <Button variant={"outline"} href={"#laser"}>
+        <div className="grid grid-cols-3 divide-x-2 divide-[#8B5132] py-4 justify-center text-center align-middle">
+          <Button variant={"underline"} href={"#laser"}>
             Laser
           </Button>
-          <Button variant={"outline"} href={"#masaz"}>
+          <Button variant={"underline"} href={"#masaz"}>
             Masaz
           </Button>
           <Button
-            variant={"outline"}
+            variant={"underline"}
             href={
               "https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow"
             }

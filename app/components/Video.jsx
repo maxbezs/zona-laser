@@ -23,9 +23,9 @@ export const Video = ({ url }) => {
           ref={videoRef}
           playsInline
           autoPlay
-          width={"1920"}
-          height={"1080"}
-          className="w-full h-full"
+          width={"1080"}
+          height={"1350"}
+          className="w-full h-fit"
           loop
           muted
         >
