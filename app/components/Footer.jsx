@@ -13,7 +13,7 @@ const Footer = () => {
             <Link href="/">
               <Image
                 alt="zona laser logo"
-                src="/logo.svg"
+                src="/logo-text.svg"
                 width="140"
                 height="120"
                 priority={true}
