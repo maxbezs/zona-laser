@@ -34,13 +34,19 @@ const Header = () => {
 
   return (
     <header
-      className={`bg-[#B28363] border-b-4 border-[#ECDAC9] fixed top-0 left-0 w-full transition-transform duration-300 filter z-50  transform ${
+      className={`bg-[#B28363] border-b-2 border-[#ECDAC9] fixed top-0 left-0 w-full transition-transform duration-300 filter z-50  transform ${
         visible ? "translate-y-0 " : "-translate-y-full "
       } `}
     >
-      <p className="py-3 w-full font-opensans text-center underline bg-[#D9B493]">
-        Piłsudskiego 19, 31-110, Kraków
-      </p>
+      <div className="bg-[#D9B493] py-3 text-center w-full">
+        <a
+          href="https://maps.app.goo.gl/HQNw39u56GeiCn2bA"
+          className="  font-opensans underline "
+        >
+          Piłsudskiego 19, 31-110, Kraków
+        </a>
+      </div>
+
       <div className="px-6 mt-4 ">
         <div className="container max-w-6xl mx-auto flex justify-between items-center align-center">
           <Link href="/">
@@ -52,7 +58,12 @@ const Header = () => {
               priority={true}
             />
           </Link>
-          <p className="font-opensans text-white text-center">+48731588515</p>
+          <a
+            href={`tel:+48731588515`}
+            className="font-opensans text-white text-center"
+          >
+            +48731588515
+          </a>
 
           <Button href="https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow">
             Booksy

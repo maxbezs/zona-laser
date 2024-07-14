@@ -6,6 +6,7 @@ import Section from "./components/Section";
 import { depilationInfo, massageInfo } from "./data";
 import Button from "./components/Button";
 import H2 from "./components/H2";
+import H3 from "./components/H3";
 export const metadata = {
   title: "Nowoczesny Salon Urody: Profesjonalna Depilacja Laserowa -30%",
   description:
@@ -13,14 +14,17 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <div className="flex flex-col p-2 ">
+    <div className="flex flex-col  ">
       <Header />
-      <div className="mt-48">
+      <div className="mt-[185px]">
         <div className="flex flex-col gap-4 relative p-6">
-          <h1 className="text-2xl ">Depilacja laserowa w Krakowie</h1>
-          <p>
-            DLA NOWYCH KLIENTÓW! Zniżka -30% na depilację laserową dla nowych
-            klientów na pierwszą wizytę
+          <h1 className="text-2xl font-montserrat font-bold text-[#ECDAC9] ">
+            Depilacja laserowa w Krakowie
+          </h1>
+          <p className="font-opensans text-white">DLA NOWYCH KLIENTÓW!</p>
+          <p className="font-opensans text-[#ECDAC9]">
+            <span className="text-white">Zniżka -30%</span> na depilację
+            laserową dla nowych klientów na pierwszą wizytę
           </p>
           <Button
             href={
@@ -31,13 +35,13 @@ export default function Home() {
           </Button>
           <Image
             alt="lady"
-            src="/bg-lady.jpg"
+            src="/banner-bg.jpg"
             fill
             className="w-full object-cover relative -z-10"
           />
         </div>
         <div id="laser"></div>
-        <div>
+        <div className="px-2">
           <H2>Depilacja Laserowa</H2>
           <Suspense fallback={"Loading..."}>
             <Video url="/laser-video.mp4" />
@@ -51,7 +55,7 @@ export default function Home() {
           ))}
         </div>
         <div id="masaz"></div>
-        <div>
+        <div className="p-2">
           <H2>Masaz</H2>
           <Suspense fallback={"Loading..."}>
             <Video url="/laser-video.mp4" />
@@ -64,59 +68,33 @@ export default function Home() {
             />
           ))}
         </div>
-        <div className="my-6">
+        <div className="my-6 p-2">
           <H2>Nasz zespół</H2>
           <div className="grid grid-cols-2 gap-2 ">
             <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
-                src="/logo.png"
+                src="/masaz.jpg"
                 width="160"
                 height="160"
                 className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
               />
-              <h4 className="font-montserrat text-xl  text-center text-[#8B5132]">
-                John Smith
-              </h4>
-              <p className="font-opensans">Laser</p>
+              <H3 className="font-montserrat text-xl  text-center text-[#8B5132]">
+                Kateryna
+              </H3>
+              <p className="font-opensans">Masażysta</p>
             </div>
             <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
-                src="/logo.png"
+                src="/laser.jpg"
                 width="160"
                 height="160"
                 className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
               />
-              <h4 className="font-montserrat text-xl  text-center text-[#8B5132]">
-                John Smith
-              </h4>
-              <p className="font-opensans">Laser</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image
-                alt="zona laser logo"
-                src="/logo.png"
-                width="160"
-                height="160"
-                className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
-              />
-              <h4 className="font-montserrat text-xl  text-center text-[#8B5132]">
-                John Smith
-              </h4>
-              <p className="font-opensans">Laser</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image
-                alt="zona laser logo"
-                src="/logo.png"
-                width="160"
-                height="160"
-                className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain	"
-              />
-              <h4 className="font-montserrat text-xl  text-center text-[#8B5132]">
-                John Smith
-              </h4>
+              <H3 className="font-montserrat text-xl  text-center text-[#8B5132]">
+                Jarosława
+              </H3>
               <p className="font-opensans">Laser</p>
             </div>
           </div>

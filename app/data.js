@@ -156,9 +156,10 @@ export const massageInfo = [
     ],
   },
   {
-    title: "Jak długo utrzymuje się efekt masażu?",
+    title: "Jakie efekty uzyskasz po masażu?",
     content: [
-      "Efekty masażu mogą się różnić w zależności od osoby i rodzaju masażu. Ogólnie, korzyści relaksacyjne i zmniejszenie bólu mogą być odczuwalne przez kilka dni do tygodnia po masażu.",
+      "Masaż oferuje liczne korzyści, w tym redukcję napięcia mięśniowego, poprawę krążenia krwi oraz zwiększenie elastyczności mięśni i stawów. Dodatkowo masaż pomaga w zmniejszeniu stresu, poprawia samopoczucie, jakość snu i może łagodzić objawy lęku oraz depresji. ",
+      "Dzięki różnym technikom, takim jak masaż szwedzki, głęboki czy sportowy, masaż może być dostosowany do indywidualnych potrzeb, przynosząc zarówno fizyczne, jak i psychiczne efekty.",
       "Regularne sesje masażu mogą przynieść długotrwałe korzyści zdrowotne.",
     ],
   },
@@ -194,7 +195,7 @@ export const massageInfo = [
     ],
   },
   {
-    title: "Czego nie wolno robić po masażu?",
+    title: "Czego wolno robić po masażu?",
     content: [
       "Aby utrzymać korzyści z masażu i uniknąć dyskomfortu, należy:",
       {
