@@ -74,7 +74,7 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <Image
                 alt="zona laser logo"
-                src="/masaz.jpg"
+                src="/masazz.jpg"
                 width="160"
                 height="160"
                 className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
@@ -93,7 +93,7 @@ export default function Home() {
                 className="rounded-2xl w-40 h-40 bg-[#faf1ea] object-contain"
               />
               <H3 className="font-montserrat text-xl  text-center text-[#8B5132]">
-                Jarosława
+                Yanita
               </H3>
               <p className="font-opensans">Laser</p>
             </div>
