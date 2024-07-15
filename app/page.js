@@ -41,13 +41,12 @@ export default function Home() {
           />
         </div>
         <div className="px-2">
-          <H2>Nasze Usługi</H2>
+          <H2>Specjalne oferty!</H2>
           <div className="flex flex-col gap-6">
             <div className="rounded-xl bg-[#ECDAC9] p-4">
               <H3>Profesjonalna Depilacja Męska</H3>
               <p className="font-opensans">
-                Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając
-                maksymalny komfort i doskonałe rezultaty.
+              Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając maksymalny komfort i doskonałe rezultaty. Oferujemy specjalną propozycję: 30% zniżki na każdą pierwszą wizytę.
               </p>
               <Image
                 alt="depilacja mezczyzn"
