@@ -28,34 +28,35 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Nowoczesny Salon Urody: Profesjonalna Depilacja Laserowa -30%"
+          content="Profesjonalna Depilacja Męska i Unikalny Masaż Kosmetyczny | Zona Laser"
         />
         <meta
           property="og:description"
-          content=" Skorzystaj z wyjątkowej oferty i ciesz się gładką skórą z 30% rabatem na pierwszą wizytę! Odwiedź nas już dziś i odkryj skuteczność naszych zaawansowanych technologii w usuwaniu zbędnego owłosienia."
+          content=" Odkryj wyjątkowe usługi w Zona Laser: specjalistyczna depilacja męska i unikalny masaż kosmetyczny. Nasze ekskluzywne techniki zapewniają maksymalny komfort i znakomite efekty. Zarezerwuj wizytę już dziś i doświadcz różnicy!"
         />
         <meta
           property="og:image"
-          content="https://zona-laser.vercel.app/logo.png"
+          content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
 
         <meta
           name="twitter:card"
-          content="https://zona-laser.vercel.app/banner-bg.jpg"
+          content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
         <meta property="twitter:domain" content="zona-laser.vercel.app" />
         <meta property="twitter:url" content="https://zona-laser.vercel.app/" />
         <meta
           name="twitter:title"
-          content="Nowoczesny Salon Urody: Profesjonalna Depilacja Laserowa -30%"
+          content="Profesjonalna Depilacja Męska i Unikalny Masaż Kosmetyczny | Zona
+          Laser"
         />
         <meta
           name="twitter:description"
-          content=" Skorzystaj z wyjątkowej oferty i ciesz się gładką skórą z 30% rabatem na pierwszą wizytę! Odwiedź nas już dziś i odkryj skuteczność naszych zaawansowanych technologii w usuwaniu zbędnego owłosienia."
+          content=" Odkryj wyjątkowe usługi w Zona Laser: specjalistyczna depilacja męska i unikalny masaż kosmetyczny. Nasze ekskluzywne techniki zapewniają maksymalny komfort i znakomite efekty. Zarezerwuj wizytę już dziś i doświadcz różnicy!"
         />
         <meta
           name="twitter:image"
-          content="https://zona-laser.vercel.app/logo.png"
+          content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
       </head>
       <body>
