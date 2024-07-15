@@ -1,4 +1,5 @@
 import H3 from "./H3";
+import Accordion from "./Accordion";
 
 const Section = ({ title, content }) => {
   return (
@@ -11,9 +12,17 @@ const Section = ({ title, content }) => {
           </p>
         ) : (
           <ul key={index} className="list-disc ml-5">
-            {item.list.map((listItem, listIndex) => (
-              <li key={listIndex}>{listItem}</li>
-            ))}
+            {item.list.map((listItem, listIndex) =>
+              typeof listItem === "string" ? (
+                <li key={listIndex}>{listItem}</li>
+              ) : (
+                <li key={listIndex}>
+                  <Accordion title={listItem.title}>
+                    {listItem.content}
+                  </Accordion>
+                </li>
+              )
+            )}
           </ul>
         )
       )}

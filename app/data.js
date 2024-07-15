@@ -169,25 +169,121 @@ export const massageInfo = [
       "Istnieje wiele różnych rodzajów masażu, w tym:",
       {
         list: [
-          "Masaż klasyczny",
-          "Masaż sportowy",
-          "Masaż antycellulitowy",
-          "Masaż miodowy",
-          "Masaż relaksacyjny",
-          "Masaż limfatyczny",
-          "Masaż miofascialny twarzy (modelujący masaż twarzy/mio-plastyka)",
-          "Masaż transbukalny twarzy",
-          "Masaż gorącymi kamieniami (hot stone)",
-          "Masaż ze świecą",
-          "Masaż z ciepłą czekoladą",
-          "Kawitacja ultradźwiękowa",
-          "RF-lifting",
-          "Dermabrazja",
-          "Ultradźwiękowe oczyszczanie twarzy",
-          "Peeling kwasowy",
-          "Maski: żelowe, kremowe, alginatowe",
-          "Mezoterapia bezigłowa",
-          "Darsonwalizacja",
+          {
+            type: "accordion",
+            title: "Masaż klasyczny",
+            content:
+              "Masaż klasyczny obejmuje różne techniki, takie jak głaskanie, ugniatanie i tarcie, które wspomagają relaksację, poprawiają krążenie i redukują napięcie mięśniowe. Jest idealny do redukcji stresu i poprawy ogólnego samopoczucia. Ceny zazwyczaj wahają się od 80 PLN do 150 PLN za sesję trwającą 60 minut.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż sportowy",
+            content:
+              "Przeznaczony dla sportowców i aktywnych osób, masaż sportowy skupia się na zapobieganiu i leczeniu urazów związanych ze sportem, poprawie elastyczności i wzmacnianiu wyników sportowych. Techniki mogą obejmować głęboki masaż tkankowy, rozciąganie i terapię punktów spustowych. Ceny zazwyczaj zaczynają się od 100 PLN do 180 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż antycellulitowy",
+            content:
+              "Masaż antycellulitowy koncentruje się na obszarach podatnych na cellulit, stosując energiczne ruchy i specjalistyczne techniki w celu poprawy krążenia, rozkładu depozytów tłuszczowych i wygładzenia tekstury skóry. Ceny zazwyczaj wahają się od 120 PLN do 200 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż miodowy",
+            content:
+              "Masaż miodowy polega na aplikacji ciepłego miodu na skórę i wykorzystaniu specjalnej techniki stukania, aby wspierać detoksykację, poprawiać elastyczność skóry i stymulować krążenie. Jest znany z działania relaksującego i odmładzającego. Ceny zazwyczaj zaczynają się od 100 PLN do 160 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż relaksacyjny",
+            content:
+              "Masaż relaksacyjny ma na celu odprężenie zarówno ciała, jak i umysłu poprzez delikatne ruchy i rytmiczne techniki. Pomaga w redukcji stresu, wspiera relaksację i poprawia jakość snu. Ceny zazwyczaj wahają się od 80 PLN do 150 PLN za sesję trwającą 60 minut.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż limfatyczny",
+            content:
+              "Masaż limfatyczny wykorzystuje delikatne, rytmiczne ruchy do stymulacji układu limfatycznego, wspomagając detoksykację, redukcję obrzęków (obrzęków) i wzmacniając układ odpornościowy. Ceny zazwyczaj zaczynają się od 120 PLN do 180 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title:
+              "Masaż miofascialny twarzy (modelujący masaż twarzy/mio-plastyka)",
+            content:
+              "Ten masażyk miofascialny skupia się na uwolnieniu napięcia mięśni twarzy i tkanek łącznych, poprawiając krążenie, tonus skóry i redukując widoczność zmarszczek. Ceny zazwyczaj wahają się od 100 PLN do 160 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż transbukalny twarzy",
+            content:
+              "Transbukalny masażyk twarzy koncentruje się na mięśniach policzkowych wewnątrz jamy ustnej, poprawiając kontur twarzy, redukując opuchliznę i wspomagając drenaż limfatyczny. Ceny zazwyczaj zaczynają się od 120 PLN do 200 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż gorącymi kamieniami (hot stone)",
+            content:
+              "Masaż gorącymi kamieniami polega na umieszczaniu podgrzewanych kamieni na ciele i ich użyciu do masażu określonych obszarów. Pomaga w relaksacji mięśni, poprawia krążenie i wspiera głęboką relaksację. Ceny zazwyczaj wahają się od 150 PLN do 250 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż ze świecą",
+            content:
+              "Masaż z użyciem świec wykorzystuje ciepły, roztopiony wosk świecy z dodatkiem olejków eterycznych do odżywienia skóry, zapewnienia głębokiej relaksacji i redukcji napięcia mięśniowego. Ceny zazwyczaj zaczynają się od 120 PLN do 180 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Masaż z ciepłą czekoladą",
+            content:
+              "Masaż czekoladowy polega na aplikacji ciepłego kremu na bazie czekolady na skórę, który nawilża, odżywia i działa przeciwutleniająco. Jest znany z luksusowych i rozkosznych właściwości. Ceny zazwyczaj wahają się od 130 PLN do 200 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Kawitacja ultradźwiękowa",
+            content:
+              "Leczenie kawitacji ultradźwiękowej wykorzystuje niskoczęstotliwościowe fale ultradźwiękowe do rozkładania komórek tłuszczowych, redukcji miejscowych depozytów tłuszczu i poprawy tekstury skóry. Ceny zazwyczaj zaczynają się od 180 PLN do 300 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "RF-lifting",
+            content:
+              "RF (Radio Frequency) lifting stymuluje produkcję kolagenu i napina skórę za pomocą energii radiowej. Pomaga w redukcji zmarszczek, poprawia elastyczność skóry i wspiera młodszy wygląd. Ceny zazwyczaj wahają się od 200 PLN do 350 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Dermabrazja",
+            content:
+              "Dermabrazja polega na złuszczaniu zewnętrznej warstwy skóry w celu poprawy tekstury, leczenia blizn potrądzikowych, redukcji drobnych zmarszczek i promowania gładkiej, promiennej skóry. Ceny zazwyczaj zaczynają się od 150 PLN do 250 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Ultradźwiękowe oczyszczanie twarzy",
+            content:
+              "Ultradźwiękowe oczyszczanie twarzy wykorzystuje fale ultradźwiękowe do głębokiego oczyszczania porów, usuwania zanieczyszczeń oraz poprawy nawilżenia i tekstury skóry. Ceny zazwyczaj wahają się od 100 PLN do 180 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Peeling kwasowy",
+            content:
+              "Peelingi kwasowe stosują różne rodzaje kwasów (np. kwas glikolowy, salicylowy) do złuszczania skóry, leczenia trądziku, redukcji przebarwień oraz poprawy gładkości skóry. Ceny zazwyczaj zaczynają się od 120 PLN do 200 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Maski: żelowe, kremowe, alginatowe",
+            content:
+              "Maski żelowe, kremowe i alginiatowe są aplikowane na twarz w celu nawilżenia, odżywienia i rozwiązania konkretnych problemów skórnych, takich jak suchość, trądzik czy starzenie się skóry. Ceny zazwyczaj wahają się od 80 PLN do 150 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Mezoterapia bezigłowa",
+            content:
+              "Mezoterapia bezigłowa dostarcza aktywne składniki (np. witaminy, przeciwutleniacze) do skóry za pomocą elektroporacji lub technologii ultradźwiękowej, poprawiając nawilżenie, elastyczność i blask skóry. Ceny zazwyczaj zaczynają się od 200 PLN do 350 PLN za sesję.",
+          },
+          {
+            type: "accordion",
+            title: "Darsonwalizacja",
+            content:
+              "Darsonwalizacja polega na stosowaniu wysokoczęstotliwościowych prądów elektrycznych do stymululacji krążenia, poprawy natlenienia skóry oraz leczenia trądziku i stanów zapalnych. Ceny zazwyczaj wahają się od 100 PLN do 180 PLN za sesję.",
+          },
         ],
       },
       "Każdy rodzaj masażu ma swoje specyficzne techniki i korzyści.",
