@@ -66,7 +66,7 @@ const Header = () => {
           </a>
 
           <Button href="https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow">
-            Booksy
+            Rezerwuj
           </Button>
         </div>
         <div className="flex  justify-between">

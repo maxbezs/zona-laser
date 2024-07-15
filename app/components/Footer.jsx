@@ -36,7 +36,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center my-auto gap-4">
             <Button href="https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow">
-              Booksy
+              Rezerwuj 
             </Button>
             <a href={`tel:+48731588515`} className="font-opensans text-white">
               +48731588515

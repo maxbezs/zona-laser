@@ -18,20 +18,20 @@ export default function Home() {
       <Header />
       <div className="mt-[185px]">
         <div className="flex flex-col gap-4 relative p-6">
-          <h1 className="text-2xl font-montserrat font-bold text-[#ECDAC9] ">
-            Depilacja laserowa w Krakowie
+          <h1 className="text-3xl font-montserrat font-bold text-[#ECDAC9] ">
+            Doświadcz profesjonalnej depilacji męskiej i unikalnego masażu
+            kosmetycznego
           </h1>
-          <p className="font-opensans text-white">DLA NOWYCH KLIENTÓW!</p>
-          <p className="font-opensans text-[#ECDAC9]">
-            <span className="text-white">Zniżka -30%</span> na depilację
-            laserową dla nowych klientów na pierwszą wizytę
+          <p className="font-opensans text-white">
+            Specjalistyczne usługi dla mężczyzn | Innowacyjne techniki masażu
           </p>
+
           <Button
             href={
               "https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow"
             }
           >
-            Uzyskać zniżkę
+            Zarezerwuj wizytę teraz
           </Button>
           <Image
             alt="lady"
@@ -39,6 +39,55 @@ export default function Home() {
             fill
             className="w-full object-cover relative -z-10"
           />
+        </div>
+        <div className="px-2">
+          <H2>Nasze Usługi</H2>
+          <div className="flex flex-col gap-6">
+            <div className="rounded-xl bg-[#ECDAC9] p-4">
+              <H3>Profesjonalna Depilacja Męska</H3>
+              <p className="font-opensans">
+                Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając
+                maksymalny komfort i doskonałe rezultaty.
+              </p>
+              <Image
+                alt="depilacja mezczyzn"
+                src="/depilacja-mezczyzn.jpg"
+                width="160"
+                height="160"
+                className="rounded-2xl w-full h-auto my-4"
+              />
+              <a
+                href={
+                  "https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow"
+                }
+                className="text-white bg-[#8B5132] py-3 px-4 flex rounded-lg justify-center  align-baseline cursor-pointer select-none no-underline font-opensans"
+              >
+                Zarezerwuj wizytę teraz
+              </a>
+            </div>
+            <div className="rounded-xl bg-[#ECDAC9] p-4">
+              <H3>Unikalny Masaż Kosmetyczny</H3>
+              <p className="font-opensans">
+                Odkryj naszą ekskluzywną technikę masażu, łączącą tradycyjne i
+                innowacyjne metody dla doskonałych efektów na skórze i relaksu.
+              </p>
+              <Image
+                alt="massage"
+                src="/massage.jpg"
+                width="160"
+                height="160"
+                className="rounded-2xl w-full h-auto my-4"
+              />
+              <a
+                href={
+                  "https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow"
+                }
+                className="text-white bg-[#8B5132] py-3 px-4 flex rounded-lg justify-center  align-baseline cursor-pointer select-none no-underline font-opensans"
+              >
+                Zarezerwuj wizytę teraz
+              </a>
+            </div>
+          </div>
         </div>
         <div id="laser"></div>
         <div className="px-2">
@@ -95,7 +144,9 @@ export default function Home() {
               <H3 className="font-montserrat text-xl  text-center text-[#8B5132]">
                 Yanita
               </H3>
-              <p className="font-opensans">Laser</p>
+              <p className="font-opensans text-center">
+                Specjalista depilacji laserowej
+              </p>
             </div>
           </div>
         </div>

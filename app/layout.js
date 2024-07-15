@@ -16,11 +16,12 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${openSans.variable} ${montserrat.variable}`}>
       <head>
         <title>
-          Nowoczesny Salon Urody: Profesjonalna Depilacja Laserowa -30%
+          Profesjonalna Depilacja Męska i Unikalny Masaż Kosmetyczny | Zona
+          Laser
         </title>
         <meta
           name="description"
-          content=" Skorzystaj z wyjątkowej oferty i ciesz się gładką skórą z 30% rabatem na pierwszą wizytę! Odwiedź nas już dziś i odkryj skuteczność naszych zaawansowanych technologii w usuwaniu zbędnego owłosienia."
+          content=" Odkryj wyjątkowe usługi w Zona Laser: specjalistyczna depilacja męska i unikalny masaż kosmetyczny. Nasze ekskluzywne techniki zapewniają maksymalny komfort i znakomite efekty. Zarezerwuj wizytę już dziś i doświadcz różnicy!"
         />
 
         <meta property="og:url" content="https://zona-laser.vercel.app/" />

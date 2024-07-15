@@ -125,45 +125,6 @@ export const depilationInfo = [
 ];
 export const massageInfo = [
   {
-    title: "Na czym polega masaż?",
-    content: [
-      "Masaż to technika manipulacji mięśni i tkanek miękkich, która może pomóc w relaksacji, zmniejszeniu bólu, poprawie krążenia i ogólnej poprawie samopoczucia.",
-      "Masaż może być wykonywany na różnych częściach ciała, w tym:",
-      {
-        list: [
-          "plecy;",
-          "szyja i ramiona;",
-          "nogi i stopy;",
-          "ręce i dłonie;",
-          "twarz i głowa.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Rezultaty i efekty masażu",
-    content: [
-      "Masaż może przynieść wiele korzyści, w tym:",
-      {
-        list: [
-          "Zmniejszenie napięcia mięśniowego i bólu;",
-          "Poprawa krążenia krwi;",
-          "Relaksacja i zmniejszenie stresu;",
-          "Poprawa elastyczności mięśni i stawów;",
-          "Wsparcie w leczeniu urazów mięśniowych.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Jakie efekty uzyskasz po masażu?",
-    content: [
-      "Masaż oferuje liczne korzyści, w tym redukcję napięcia mięśniowego, poprawę krążenia krwi oraz zwiększenie elastyczności mięśni i stawów. Dodatkowo masaż pomaga w zmniejszeniu stresu, poprawia samopoczucie, jakość snu i może łagodzić objawy lęku oraz depresji. ",
-      "Dzięki różnym technikom, takim jak masaż szwedzki, głęboki czy sportowy, masaż może być dostosowany do indywidualnych potrzeb, przynosząc zarówno fizyczne, jak i psychiczne efekty.",
-      "Regularne sesje masażu mogą przynieść długotrwałe korzyści zdrowotne.",
-    ],
-  },
-  {
     title: "Jakie są rodzaje masażu?",
     content: [
       "Istnieje wiele różnych rodzajów masażu, w tym:",
@@ -289,6 +250,46 @@ export const massageInfo = [
       "Każdy rodzaj masażu ma swoje specyficzne techniki i korzyści.",
     ],
   },
+  {
+    title: "Na czym polega masaż?",
+    content: [
+      "Masaż to technika manipulacji mięśni i tkanek miękkich, która może pomóc w relaksacji, zmniejszeniu bólu, poprawie krążenia i ogólnej poprawie samopoczucia.",
+      "Masaż może być wykonywany na różnych częściach ciała, w tym:",
+      {
+        list: [
+          "plecy;",
+          "szyja i ramiona;",
+          "nogi i stopy;",
+          "ręce i dłonie;",
+          "twarz i głowa.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Rezultaty i efekty masażu",
+    content: [
+      "Masaż może przynieść wiele korzyści, w tym:",
+      {
+        list: [
+          "Zmniejszenie napięcia mięśniowego i bólu;",
+          "Poprawa krążenia krwi;",
+          "Relaksacja i zmniejszenie stresu;",
+          "Poprawa elastyczności mięśni i stawów;",
+          "Wsparcie w leczeniu urazów mięśniowych.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Jakie efekty uzyskasz po masażu?",
+    content: [
+      "Masaż oferuje liczne korzyści, w tym redukcję napięcia mięśniowego, poprawę krążenia krwi oraz zwiększenie elastyczności mięśni i stawów. Dodatkowo masaż pomaga w zmniejszeniu stresu, poprawia samopoczucie, jakość snu i może łagodzić objawy lęku oraz depresji. ",
+      "Dzięki różnym technikom, takim jak masaż szwedzki, głęboki czy sportowy, masaż może być dostosowany do indywidualnych potrzeb, przynosząc zarówno fizyczne, jak i psychiczne efekty.",
+      "Regularne sesje masażu mogą przynieść długotrwałe korzyści zdrowotne.",
+    ],
+  },
+
   {
     title: "Jak przygotować się do masażu?",
     content: [
