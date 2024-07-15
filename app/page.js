@@ -143,7 +143,7 @@ export default function Home() {
                 Yanita
               </H3>
               <p className="font-opensans text-center">
-                Specjalista depilacji laserowej
+                Mistrz depilacji laserowej
               </p>
             </div>
           </div>
