@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           property="og:image"
           content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
-
+        <meta property="og:site_name" content="Zona Laser"></meta>
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="zona-laser.vercel.app" />
         <meta property="twitter:url" content="https://zona-laser.vercel.app/" />
