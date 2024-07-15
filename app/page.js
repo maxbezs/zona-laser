@@ -71,7 +71,7 @@ export default function Home() {
               </p>
               <Image
                 alt="massage"
-                src="/massage.jpg"
+                src="/face-massage.jpg"
                 width="160"
                 height="160"
                 className="rounded-2xl w-full h-auto my-4"
