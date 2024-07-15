@@ -305,19 +305,6 @@ export const massageInfo = [
     ],
   },
   {
-    title: "Czego wolno robić po masażu?",
-    content: [
-      "Aby utrzymać korzyści z masażu i uniknąć dyskomfortu, należy:",
-      {
-        list: [
-          "Unikać intensywnego wysiłku fizycznego przez kilka godzin po masażu;",
-          "Pić dużo wody, aby pomóc wypłukać toksyny z organizmu;",
-          "Unikać gorących kąpieli i saun przez kilka godzin po masażu.",
-        ],
-      },
-    ],
-  },
-  {
     title: "Przeciwwskazania do masażu",
     content: [
       "Pomimo że masaż jest bezpieczny dla większości osób, istnieją pewne przeciwwskazania, które mogą uniemożliwić jego wykonanie:",
