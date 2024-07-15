@@ -46,13 +46,15 @@ export default function Home() {
             <div className="rounded-xl bg-[#ECDAC9] p-4">
               <H3>Profesjonalna Depilacja Męska</H3>
               <p className="font-opensans">
-              Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając maksymalny komfort i doskonałe rezultaty. Oferujemy specjalną propozycję: 30% zniżki na pierwszą wizytę.
+                Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając
+                maksymalny komfort i doskonałe rezultaty. Oferujemy specjalną
+                propozycję: 30% zniżki na pierwszą wizytę.
               </p>
               <Image
                 alt="depilacja mezczyzn"
                 src="/depilacja-mezczyzn.jpg"
-                width="160"
-                height="160"
+                width="1080"
+                height="1350"
                 className="rounded-2xl w-full h-auto my-4"
               />
               <a
@@ -67,13 +69,17 @@ export default function Home() {
             <div className="rounded-xl bg-[#ECDAC9] p-4">
               <H3>Unikalny Masaż Kosmetyczny</H3>
               <p className="font-opensans">
-                Odkryj naszą ekskluzywną technikę masażu, łączącą tradycyjne i innowacyjne metody dla doskonałych efektów na skórze i relaksu. Oferujemy unikalny masaż, który łączy w sobie dwie techniki: masaż miofascialny i transbukalny oraz odmładzającą maskę – potrójny efekt w cenie jednego tylko 220 zł!
+                Odkryj naszą ekskluzywną technikę masażu, łączącą tradycyjne i
+                innowacyjne metody dla doskonałych efektów na skórze i relaksu.
+                Oferujemy unikalny masaż, który łączy w sobie dwie techniki:
+                masaż miofascialny i transbukalny oraz odmładzającą maskę –
+                potrójny efekt w cenie jednego tylko 220 zł!
               </p>
               <Image
                 alt="massage"
                 src="/face-massage.jpg"
-                width="160"
-                height="160"
+                width="1080"
+                height="1350"
                 className="rounded-2xl w-full h-auto my-4"
               />
               <a
