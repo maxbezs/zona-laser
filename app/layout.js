@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import "./globals.css";
 import localFont from "next/font/local";
 import { Montserrat, Open_Sans } from "next/font/google";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -57,6 +58,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        {" "}
+        <GoogleAnalytics />
         {children}
         <Footer />
       </body>

@@ -42,20 +42,23 @@ export default function Home() {
         </div>
         <div className="px-2">
           <H2>Specjalne oferty!</H2>
-          <div className="flex flex-col gap-6">
-            <div className="rounded-xl bg-[#ECDAC9] p-4">
-              <H3>Profesjonalna Depilacja Męska</H3>
-              <p className="font-opensans">
-                Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając
-                maksymalny komfort i doskonałe rezultaty. Oferujemy specjalną
-                propozycję: 30% zniżki na pierwszą wizytę.
-              </p>
+          <div className="flex flex-col sm:flex-row gap-6">
+            <div className="rounded-xl flex flex-col w-full bg-[#ECDAC9] p-4 sm:w-1/2 sm:flex-row">
+              <div>
+                <H3>Profesjonalna Depilacja Męska</H3>
+                <p className="font-opensans">
+                  Oferujemy specjalistyczną depilację dla mężczyzn, zapewniając
+                  maksymalny komfort i doskonałe rezultaty. Oferujemy specjalną
+                  propozycję: 30% zniżki na pierwszą wizytę.
+                </p>
+              </div>
+
               <Image
                 alt="depilacja mezczyzn"
                 src="/depilacja-mezczyzn.jpg"
                 width="1080"
                 height="1350"
-                className="rounded-2xl w-full h-auto my-4"
+                className="rounded-2xl w-1/2 h-auto my-4"
               />
               <a
                 href={
@@ -66,7 +69,7 @@ export default function Home() {
                 Zarezerwuj wizytę teraz
               </a>
             </div>
-            <div className="rounded-xl bg-[#ECDAC9] p-4">
+            <div className="rounded-xl w-full bg-[#ECDAC9] p-4 sm:w-1/2">
               <H3>Unikalny Masaż Kosmetyczny</H3>
               <p className="font-opensans">
                 Odkryj naszą ekskluzywną technikę masażu, łączącą tradycyjne i
