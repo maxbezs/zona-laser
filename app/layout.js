@@ -3,7 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { Montserrat, Open_Sans } from "next/font/google";
 import GoogleAnalytics from "./components/GoogleAnalytics";
-
+import { Analytics } from "@vercel/analytics/react";
 const openSans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-opensans",
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
       <GoogleAnalytics />
       <body>
         {children}
-        <Footer />
+        <Footer /> <Analytics />
       </body>
     </html>
   );
