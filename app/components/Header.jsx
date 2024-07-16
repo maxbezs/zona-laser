@@ -77,7 +77,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3 divide-x-2 divide-[#8B5132] py-4 justify-center text-center align-middle">
+        <div className="grid grid-cols-3 divide-x-2 divide-[#8B5132] py-4 justify-center text-center align-middle sm:max-w-2xl mx-auto">
           <Button variant={"underline"} href={"#laser"}>
             Laser
           </Button>

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="px-6 py-12 bg-[#B28363] border-t-4 border-[#ECDAC9] 	">
       <div className="sm:flex space-y-8 sm:space-y-0 max-w-6xl mx-auto">
-        <div className="flex-1 grid grid-cols-2 gap-8 sm:flex sm:flex-col">
+        <div className="flex-1 grid grid-cols-2 gap-8 sm:flex sm:flex-rows">
           <div className="flex flex-col gap-4">
             <Link href="/">
               <Image
@@ -36,7 +36,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center my-auto gap-4">
             <Button href="https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow">
-              Rezerwuj 
+              Rezerwuj
             </Button>
             <a href={`tel:+48731588515`} className="font-opensans text-white">
               +48731588515

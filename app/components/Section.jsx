@@ -3,11 +3,11 @@ import Accordion from "./Accordion";
 
 const Section = ({ title, content }) => {
   return (
-    <div className="mt-6 rounded-xl bg-[#ECDAC9] p-4">
+    <div className="mt-6 rounded-xl bg-[#ECDAC9] p-4 sm:max-w-2xl sm:w-full sm:mx-auto">
       <H3>{title}</H3>
       {content.map((item, index) =>
         typeof item === "string" ? (
-          <p key={index} className="font-opensans">
+          <p key={index} className="font-opensans text-wrap	">
             {item}
           </p>
         ) : (
