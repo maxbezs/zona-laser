@@ -3,7 +3,6 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { Montserrat, Open_Sans } from "next/font/google";
 import GoogleAnalytics from "./components/GoogleAnalytics";
-import Script from "next/script";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -58,24 +57,8 @@ export default function RootLayout({ children }) {
           content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
       </head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-BZTSF0RX5Q"
-      ></script>
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag("js", new Date());
-      gtag("config", "G-BZTSF0RX5Q");
-    `,
-        }}
-      />
+      <GoogleAnalytics />
       <body>
-        {" "}
-        <GoogleAnalytics />
         {children}
         <Footer />
       </body>
