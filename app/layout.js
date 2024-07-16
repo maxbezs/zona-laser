@@ -57,6 +57,15 @@ export default function RootLayout({ children }) {
           content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
       </head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-BZTSF0RX5Q"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || []; function gtag()
+        {dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
+        'G-BZTSF0RX5Q');
+      </script>
       <body>
         {" "}
         <GoogleAnalytics />
