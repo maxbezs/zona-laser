@@ -30,7 +30,7 @@ function Accordion({ title, children }) {
           className={` focus:outline-none  flex w-full items-center justify-between first:rounded-t-md last:rounded-b-md py-5 px-5 text-left font-medium  ${
             isOpen ? "bg-[#B28363] " : "bg-[#D9B493] rounded-b-md "
           }`}
-          onClick={openAccordion()}
+          onClick={() => openAccordion()}
         >
           <h4 className=" font-montserrat ">{title}</h4>
           <span>
