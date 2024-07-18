@@ -2,7 +2,6 @@ import Footer from "./components/Footer";
 import "./globals.css";
 import localFont from "next/font/local";
 import { Montserrat, Open_Sans } from "next/font/google";
-import GoogleAnalytics from "./components/GoogleAnalytics";
 import { Analytics } from "@vercel/analytics/react";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
