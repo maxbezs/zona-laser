@@ -3,8 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { Montserrat, Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import { GoogleAnalytics } from "@next/third-parties/google";
-
+import GoogleAnalytics from "./components/GoogleAnalytics";
 const openSans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-opensans",
@@ -16,6 +15,7 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${openSans.variable} ${montserrat.variable}`}>
+      <GoogleAnalytics />
       <head>
         <title>
           Profesjonalna Depilacja Męska i Unikalny Masaż Kosmetyczny | Zona
@@ -61,8 +61,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Footer /> <Analytics />
-      </body>{" "}
-      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_MEASUREMENT_ID} />
+      </body>
     </html>
   );
 }

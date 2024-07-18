@@ -1,24 +1,12 @@
 "use client";
 import { useState } from "react";
-import { sendGAEvent } from "@next/third-parties/google";
-
+import { trackGAEvent } from "../google-analitics";
 function Accordion({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
-  const event = ({ action, category, label, value }) => {
-    window.gtag("event", action, {
-      event_category: category,
-      event_label: label,
-      value: value,
-    });
-  };
+
   const openAccordion = () => {
     if (isOpen === false) {
-      sendGAEvent({
-        action: "open_accordion",
-        category: "massage",
-        label: "User opened " + title,
-        value: title,
-      });
+      trackGAEvent(title);
       setIsOpen(!isOpen);
     } else {
       setIsOpen(!isOpen);
