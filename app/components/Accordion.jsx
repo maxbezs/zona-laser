@@ -11,12 +11,16 @@ function Accordion({ title, children }) {
     });
   };
   const openAccordion = () => {
-    event({
-      action: "open_accordion",
-      category: "massage",
-      label: "User opened " + title,
-      value: title,
-    }).than(setIsOpen(!isOpen));
+    if (isOpen === false) {
+      event({
+        action: "open_accordion",
+        category: "massage",
+        label: "User opened " + title,
+        value: title,
+      }).than(setIsOpen(!isOpen));
+    } else {
+      setIsOpen(!isOpen);
+    }
   };
   return (
     <div className="m-full my-5">
@@ -26,7 +30,7 @@ function Accordion({ title, children }) {
           className={` focus:outline-none  flex w-full items-center justify-between first:rounded-t-md last:rounded-b-md py-5 px-5 text-left font-medium  ${
             isOpen ? "bg-[#B28363] " : "bg-[#D9B493] rounded-b-md "
           }`}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={() => openAccordion(!isOpen)}
         >
           <h4 className=" font-montserrat ">{title}</h4>
           <span>
