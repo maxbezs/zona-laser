@@ -3,7 +3,21 @@ import { useState } from "react";
 
 function Accordion({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
-
+  const event = ({ action, category, label, value }) => {
+    window.gtag("event", action, {
+      event_category: category,
+      event_label: label,
+      value: value,
+    });
+  };
+  const openAccordion = () => {
+    event({
+      action: "open_accordion",
+      category: "massage",
+      label: "User opened " + title,
+      value: title,
+    }).than(setIsOpen(!isOpen));
+  };
   return (
     <div className="m-full my-5">
       <div>
