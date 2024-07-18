@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { sendGAEvent } from "@next/third-parties/google";
 
 function Accordion({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ function Accordion({ title, children }) {
   };
   const openAccordion = () => {
     if (isOpen === false) {
-      event({
+      sendGAEvent({
         action: "open_accordion",
         category: "massage",
         label: "User opened " + title,

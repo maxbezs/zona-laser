@@ -4,6 +4,8 @@ import localFont from "next/font/local";
 import { Montserrat, Open_Sans } from "next/font/google";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 const openSans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-opensans",
@@ -57,11 +59,11 @@ export default function RootLayout({ children }) {
           content="https://zona-laser.vercel.app/depilacja-mezczyzn.jpg"
         />
       </head>
-      <GoogleAnalytics />
       <body>
         {children}
         <Footer /> <Analytics />
-      </body>
+      </body>{" "}
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_MEASUREMENT_ID} />
     </html>
   );
 }
