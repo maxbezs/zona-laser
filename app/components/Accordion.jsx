@@ -6,7 +6,7 @@ function Accordion({ title, children }) {
 
   const openAccordion = () => {
     if (isOpen === false) {
-      trackGAEvent("My Category", "My Action", "My Label");
+      trackGAEvent(title, title, title);
       setIsOpen(!isOpen);
     } else {
       setIsOpen(!isOpen);
