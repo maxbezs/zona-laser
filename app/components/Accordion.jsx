@@ -17,7 +17,7 @@ function Accordion({ title, children }) {
         category: "massage",
         label: "User opened " + title,
         value: title,
-      }).than(setIsOpen(!isOpen));
+      }).then(setIsOpen(!isOpen));
     } else {
       setIsOpen(!isOpen);
     }
