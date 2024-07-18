@@ -9,13 +9,12 @@ const initializeGA = () => {
   console.log("GA INITIALIZED");
 };
 
-const trackGAEvent = (label) => {
+const trackGAEvent = (category, action, label) => {
   // Send GA4 Event
   ReactGA.event({
-    action: "open_accordion",
-    category: "massage",
-    label: "User opened " + label,
-    value: label,
+    category: category,
+    action: action,
+    label: label,
   });
 };
 
