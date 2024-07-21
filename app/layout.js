@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           name="description"
           content=" Odkryj wyjątkowe usługi w Zona Laser: specjalistyczna depilacja męska i unikalny masaż kosmetyczny. Nasze ekskluzywne techniki zapewniają maksymalny komfort i znakomite efekty. Zarezerwuj wizytę już dziś i doświadcz różnicy!"
         />
-
+        <link rel="icon" href="/favicon.ico"></link>
         <meta property="og:url" content="https://zona-laser.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta
