@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 });
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${openSans.variable} ${montserrat.variable}`}>
+    <html lang="pl" className={`${openSans.variable} ${montserrat.variable}`}>
       <GoogleAnalytics />
       <head>
         <title>
