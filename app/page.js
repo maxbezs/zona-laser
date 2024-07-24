@@ -8,11 +8,7 @@ import Button from "./components/Button";
 import H2 from "./components/H2";
 import H3 from "./components/H3";
 import ServiceCard from "./components/ServiceCard";
-export const metadata = {
-  title: "Nowoczesny Salon Urody: Profesjonalna Depilacja Laserowa -30%",
-  description:
-    " Skorzystaj z wyjątkowej oferty i ciesz się gładką skórą z 30% rabatem na pierwszą wizytę! Odwiedź nas już dziś i odkryj skuteczność naszych zaawansowanych technologii w usuwaniu zbędnego owłosienia.",
-};
+
 export default function Home() {
   return (
     <div className="flex flex-col  ">
