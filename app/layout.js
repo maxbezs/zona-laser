@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       "Odkryj wyjątkowe usługi w Zona Laser: specjalistyczna depilacja męska i unikalny masaż kosmetyczny.",
   };
   return (
-    <html lang="en" className={`${openSans.variable} ${montserrat.variable}`}>
+    <html lang="pl" className={`${openSans.variable} ${montserrat.variable}`}>
       <GoogleAnalytics />
       <head>
         <meta charset="utf-8" />
