@@ -289,7 +289,6 @@ export const massageInfo = [
       "Regularne sesje masażu mogą przynieść długotrwałe korzyści zdrowotne.",
     ],
   },
-
   {
     title: "Jak przygotować się do masażu?",
     content: [
@@ -329,6 +328,111 @@ export const massageInfo = [
           "Nowotwory;",
           "Zaawansowana osteoporoza;",
           "Niektóre schorzenia neurologiczne.",
+        ],
+      },
+    ],
+  },
+];
+
+export const cosmeticInfo = [
+  {
+    title: "Czym jest ZEMITS EAU SANTE?",
+    content: [
+      "ZEMITS EAU SANTE to nowoczesne urządzenie, które wykorzystuje technologię mikroionizacji oraz wodę o specjalnych właściwościach, aby skutecznie poprawić kondycję skóry. Jego działanie opiera się na generowaniu drobnych cząsteczek wody, które penetrują głębsze warstwy skóry, zapewniając jej intensywne nawilżenie i rewitalizację.",
+    ],
+  },
+  {
+    title: "Sterowanie funkcją hydrabrazji I oczyszczania wodorowego",
+    content: [
+      {
+        list: [
+          "Możliwość regulacji poziomu próżni, najważniejszego parametru, od którego zależy wydajność i bezpieczeństwo. Pozwala to na wykonanie zabiegu u klientów z cerą wrażliwą, skłonną do zaczerwienień, o obniżonej elastyczności. Nie ma ograniczeń co do rodzaju skóry, wieku i płci.",
+          "Zabieg jest delikatny, bezbolesny, nie powoduje dyskomfortu u klienta.",
+          "Nie ma okresu rekonwalescencji, łagodne zaczerwienienie po oczyszczeniu utrzymuje się przez 30-40 minut",
+          "Efekt widoczny od razu po pierwszym zabiegu (może być stosowany jako zabieg bankietowy).",
+          "Brak sezonowości (można go przeprowadzać o każdej porze roku).",
+          "Możliwość zastosowania hydropeelingów na twarzy, szyi, dekolcie, dłoniach, plecach.",
+          "Oprócz oczyszczania pomaga poprawić ogólny stan skóry, zlikwidować defekty, drobne zmarszczki, poprawić koloryt, zmniejszyć obrzęki.",
+          "Jeśli wybrano hydropeeling do pracy, to jednocześnie z mechanicznym złuszczaniem nastąpi wprowadzenie składników aktywnych.",
+        ],
+      },
+      "Hydrabrazja może być również stosowana jako etap przygotowawczy, ponieważ złuszczanie i oczyszczanie są ważnym elementem przed rozpoczęciem różnych programów (np. przed liftingiem RF).",
+    ],
+  },
+  {
+    title: "Infuzja tlenowa",
+    content: [
+      "Infuzja tlenowa to zabieg delikatnego odżywienia, w trakcie którego zużyte powietrze z pomieszczenia jest oczyszczane przez filtry i mieszane z płynem. Efektem jest wprowadzenie do głębokich warstw skóry czystego tlenu połączonego z substancjami aktywnymi. Dzięki wysokiemu ciśnieniu cząsteczek tlenu i serum wnikają w głąb skóry, stymulując jej odmłodzenie. Koncentrator tlenu wykorzystuje powietrze jako materiał wyjściowy i wysokiej jakości filtr molekularny jako adsorbent, wykorzystując zasadę adsorpcji pod ciśnieniem do bezpośredniego oddzielenia tlenu od azotu w normalnej temperaturze. W ten sposób powstaje tlen o wysokim stopniu czystości.",
+      "Leczenie tlenem nie ma żadnych skutków ubocznych. Właściwości antybakteryjne zabiegu zmniejszają prawdopodobieństwo podrażnienia skóry. Proces wprowadzania serum w głąb skóry odbywa się możliwie najdelikatniej za pomocą tlenu.",
+      "Dlatego zabieg jest idealny dla posiadaczy skóry nadwrażliwej oraz dla osób, które unikają iniekcji lub zabiegów chemicznych. Po ekspozycji na tlen skóra wygląda na wypoczętą. Klient może natychmiast wrócić do normalnego trybu życia. Z tego powodu mezoterapia tlenowa jest idealna na specjalne okazje, kiedy klienci chcą wyglądać na wysoką w krótkim czasie i bez żadnej rekonwalescencji.",
+    ],
+  },
+  {
+    title: "Główne efekty infuzji tlenowej:",
+    content: [
+      {
+        list: [
+          "Detoksykacja skóry. Każdego dnia organizm mimowolnie gromadzi toksyny. Sprzyja temu zanieczyszczone powietrze i dym papierosowy, które blokują tak potrzebny proces oddychania skóry. Zabieg nasycania komórki naskórka tlenem i pomaga odwrócić skutki zanieczyszczeń środowiskowych.",
+          "Produkcja własnego kolagenu. Wewnętrzne nasycenie skóry tlenem i witaminami sprzyja naturalnej produkcji kolagenu. Pomaga to skorygować owal twarzy i przywrócić elastyczność skóry.",
+          "Przyspieszanie procesu regeneracji komórek. Badania wykazały, że kiedy skóra jest nasycona tlenem, powstają nowe komórki. Działanie to przyspiesza regenerację skóry po trądziku, bliznach, chorobach.",
+        ],
+      },
+      "*Zabieg infuzji tlenowej można włączyć do kompleksowej pielęgnacji skóry kobiet w ciąży i karmiących.",
+    ],
+  },
+  {
+    title: "Peeling kawitacyjny",
+    content: [
+      `Peeling kawitacyjny to zabieg delikatnego oczyszczania skóry z
+zanieczyszczeń powierzchniowych i martwych komórek naskórka.
+Dodatkowo pod wpływem ultradźwięków poprawia się krążenie krwi
+oraz zwiększa się naturalny poziom nawilżenia skóry. W efekcie skóra
+zostaje odnowiona, jej struktura jest wygładzona, poprawia się cera.
+Skóra nabiera gładkiego, zadbanego wyglądu. Po oczyszczeniu
+poprawia się przenikanie substancji z powierzchni skóry bezpośrednio
+do skóry właściwej.
+`,
+      "Zalety: ",
+      {
+        list: [
+          "Delikatny (profesjonalna opcja oczyszczania, z której można korzystać nawet po wakacjach).",
+          "Bezpolesny (bez bólu, bez zaczerwienienia, bez obrzęku).",
+          "Nie jest związany z konkretnym sezonem.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Sonoforeza",
+    content: [
+      "Sonoforeza to zabieg wprowadzania preparatów w skórę za pomocą ultradźwięków. Wibracje ultradźwiękowe powodują aktywacje metabolizmu, krążenia krwi, drenażu limfatycznego, co wpływa na znika obrzęków oraz poprawę kolorytu skóry.",
+      "Zalety sonoforezy:",
+      "Przede wszystkim jest to całkowicie bezbolesny zabieg, który pozwala dostarczyć substancje aktywne, poprawić elastyczność skóry, a tym samym znacznie ją odmłodzić. Wibracje, w które wprowadzane są tkanki powodują lokalnie lepsze przekrwienie skóry, a przy tym i jej stymulację.",
+      "Wskazania:",
+      {
+        list: [
+          "sucha i zmęczona skóra",
+          "pogorszony koloryt skóry",
+          "obniżona jędrność skóry",
+          "trądzik (bez stanów aktywnych)",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Krioterapia",
+    content: [
+      "Krioterapia jest idealna do wszelkich zabiegów łagodzących podrażnioną skórę, zmniejsza zaczerwienienia, przyspiesza regenerację i wspomaga ujędrnienie skóry. Do przeprowadzenia zabiegu służy głowica „zimny młotek” do ochłodzenia twarzy oraz zmniejszania zaczerwienienia i stanu zapalnego.",
+      "Niskie temperatury uciskają naczynia krwionośne twarzy, dzięki czemu mniej krwi dociera do powierzchni, zmniejszając stan zapalny i obrzęk. Następnie organizm reaguje, powoli zwiększając ilość ciepłej krwi, która trafia do twarzy.",
+      "Krioterapia pomaga również zwężać pory. Po usunięciu nadmiaru sebum i innych zanieczyszczeń pory wyglądają zdrowo, dodatkowo ujędrnia twarz i wygładza skórę. W liście przeciwwskazań należy zaznaczyć nadwrażliwość na zimno.",
+      "Zalety:",
+      {
+        list: [
+          "Zmniejsza zaczerwienienia i stany zapalne",
+          "Przyspiesza regenerację skóry",
+          "Ujędrnia i wygładza skórę",
+          "Zmniejsza widoczność porów",
+          "Pomaga w redukcji obrzęków",
         ],
       },
     ],

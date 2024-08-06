@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import { Suspense } from "react";
 import { Video } from "./components/Video";
 import Section from "./components/Section";
-import { depilationInfo, massageInfo } from "./data";
+import { depilationInfo, massageInfo, cosmeticInfo } from "./data";
 import Button from "./components/Button";
 import H2 from "./components/H2";
 import H3 from "./components/H3";
@@ -76,6 +76,21 @@ export default function Home() {
           </Suspense>
           <div className="flex w-full flex-col sm:flex-row sm:flex-wrap sm:max-w-6xl sm:mx-auto">
             {massageInfo.map((section, index) => (
+              <Section
+                key={index}
+                title={section.title}
+                content={section.content}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="p-2">
+          <H2>Kosmetologia</H2>
+          <Suspense fallback={"Loading..."}>
+            <Video url="/laser-video.mp4" />
+          </Suspense>
+          <div className="flex w-full flex-col sm:flex-row sm:flex-wrap sm:max-w-6xl sm:mx-auto">
+            {cosmeticInfo.map((section, index) => (
               <Section
                 key={index}
                 title={section.title}

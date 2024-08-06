@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
     <html lang="pl" className={`${openSans.variable} ${montserrat.variable}`}>
       <GoogleAnalytics />
       <head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://zona-laser.pl/" />
         <title>
@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
         <meta
           name="twitter:image"
           content="https://zona-laser.pl/depilacja-mezczyzn.jpg"
-        />{" "}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
