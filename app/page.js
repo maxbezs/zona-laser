@@ -44,21 +44,22 @@ export default function Home() {
               src="/offer.jpg"
               fill
               style={{ objectFit: "cover" }}
-              alt="Zniżka -65% Całkowite bikini i Pachy "
+              alt="Zniżka -54% Całkowite bikini i Pachy + cale Nogi"
               className="-z-10"
+              quality={100}
             />
             <div>
               <div className="flex flex-col gap-4 p-4 sm:px-24 sm:py-14">
                 <h2 className="font-montserrat font-medium text-2xl">Zniżka</h2>
 
                 <span className="font-montserrat font-bold text-[#8B5132] text-5xl">
-                  -65%
+                  -54%
                 </span>
 
                 <div>
                   <p className="font-opensans ">- Bikini</p>
-                  <p>- Pachy</p>
-                  <p>- Całe nogi</p>
+                  <p className="font-opensans ">- Pachy</p>
+                  <p className="font-opensans ">- Całe nogi</p>
                 </div>
                 <p className="font-opensans text-xs">
                   * ilosc miejsc ograniczona
