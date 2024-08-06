@@ -370,7 +370,7 @@ export const cosmeticInfo = [
           "Infuzja tlenowa to zabieg delikatnego odżywienia, w trakcie którego zużyte powietrze z pomieszczenia jest oczyszczane przez filtry i mieszane z płynem. Efektem jest wprowadzenie do głębokich warstw skóry czystego tlenu połączonego z substancjami aktywnymi. Dzięki wysokiemu ciśnieniu cząsteczek tlenu i serum wnikają w głąb skóry, stymulując jej odmłodzenie. Koncentrator tlenu wykorzystuje powietrze jako materiał wyjściowy i wysokiej jakości filtr molekularny jako adsorbent, wykorzystując zasadę adsorpcji pod ciśnieniem do bezpośredniego oddzielenia tlenu od azotu w normalnej temperaturze. W ten sposób powstaje tlen o wysokim stopniu czystości.",
           "Leczenie tlenem nie ma żadnych skutków ubocznych. Właściwości antybakteryjne zabiegu zmniejszają prawdopodobieństwo podrażnienia skóry. Proces wprowadzania serum w głąb skóry odbywa się możliwie najdelikatniej za pomocą tlenu.",
           "Dlatego zabieg jest idealny dla posiadaczy skóry nadwrażliwej oraz dla osób, które unikają iniekcji lub zabiegów chemicznych. Po ekspozycji na tlen skóra wygląda na wypoczętą. Klient może natychmiast wrócić do normalnego trybu życia. Z tego powodu mezoterapia tlenowa jest idealna na specjalne okazje, kiedy klienci chcą wyglądać na wysoką w krótkim czasie i bez żadnej rekonwalescencji. ",
-          "150 zl",
+          "Cena: 150 zl",
         ],
       },
     ],
