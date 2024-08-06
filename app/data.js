@@ -358,7 +358,7 @@ export const cosmeticInfo = [
       },
       "Hydrabrazja może być również stosowana jako etap przygotowawczy, ponieważ złuszczanie i oczyszczanie są ważnym elementem przed rozpoczęciem różnych programów (np. przed liftingiem RF). ",
       {
-        list: ["120 zl"],
+        list: ["Cena: 120 zl"],
       },
     ],
   },
@@ -409,7 +409,7 @@ do skóry właściwej.
         ],
       },
       {
-        list: ["120 zl"],
+        list: ["Cena: 120 zl"],
       },
     ],
   },
@@ -420,7 +420,7 @@ do skóry właściwej.
       "Zalety sonoforezy:",
       "Przede wszystkim jest to całkowicie bezbolesny zabieg, który pozwala dostarczyć substancje aktywne, poprawić elastyczność skóry, a tym samym znacznie ją odmłodzić. Wibracje, w które wprowadzane są tkanki powodują lokalnie lepsze przekrwienie skóry, a przy tym i jej stymulację.",
       {
-        list: ["130 zl"],
+        list: ["Cena: 130 zl"],
       },
       "Wskazania:",
       {
@@ -440,7 +440,7 @@ do skóry właściwej.
       "Niskie temperatury uciskają naczynia krwionośne twarzy, dzięki czemu mniej krwi dociera do powierzchni, zmniejszając stan zapalny i obrzęk. Następnie organizm reaguje, powoli zwiększając ilość ciepłej krwi, która trafia do twarzy.",
       "Krioterapia pomaga również zwężać pory. Po usunięciu nadmiaru sebum i innych zanieczyszczeń pory wyglądają zdrowo, dodatkowo ujędrnia twarz i wygładza skórę. W liście przeciwwskazań należy zaznaczyć nadwrażliwość na zimno. ",
       {
-        list: ["120 zl"],
+        list: ["Cena: 120 zl"],
       },
       "Zalety:",
       {
