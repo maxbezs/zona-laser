@@ -84,13 +84,8 @@ const Header = () => {
           <Button variant={"underline"} href={"#masaz"}>
             Masaz
           </Button>
-          <Button
-            variant={"underline"}
-            href={
-              "https://booksy.com/pl-pl/226699_zona-laser_depilacja_8820_krakow"
-            }
-          >
-            Ceny
+          <Button variant={"underline"} href={"#cosmetic"}>
+            Kosmetologia
           </Button>
         </div>
       </div>

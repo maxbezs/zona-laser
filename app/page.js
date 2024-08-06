@@ -84,10 +84,11 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <div id="cosmetic"></div>
         <div className="p-2">
           <H2>Kosmetologia</H2>
           <Suspense fallback={"Loading..."}>
-            <Video url="/laser-video.mp4" />
+            <Video url="/cosmetics.mp4" />
           </Suspense>
           <div className="flex w-full flex-col sm:flex-row sm:flex-wrap sm:max-w-6xl sm:mx-auto">
             {cosmeticInfo.map((section, index) => (
