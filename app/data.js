@@ -196,7 +196,7 @@ export const massageInfo = [
             title: "Masaż z ciepłą czekoladą",
             content:
               "Masaż czekoladowy polega na aplikacji ciepłego kremu na bazie czekolady na skórę, który nawilża, odżywia i działa przeciwutleniająco. Jest znany z luksusowych i rozkosznych właściwości.  Ceny zaczynają się od 200 PLN za sesję trwającą 60 minut.",
-          },
+          },/** 
           {
             type: "accordion",
             title: "Kawitacja ultradźwiękowa",
@@ -244,7 +244,7 @@ export const massageInfo = [
             title: "Darsonwalizacja",
             content:
               "Darsonwalizacja polega na stosowaniu wysokoczęstotliwościowych prądów elektrycznych do stymululacji krążenia, poprawy natlenienia skóry oraz leczenia trądziku i stanów zapalnych.  Ceny zaczynają się od 100 PLN do 180 PLN za sesję.",
-          },
+          },*/
         ],
       },
       "Każdy rodzaj masażu ma swoje specyficzne techniki i korzyści.",
