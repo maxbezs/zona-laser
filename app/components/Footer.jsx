@@ -53,6 +53,9 @@ const Footer = () => {
               <a className="text-white font-opensans" href="#masaz">
                 Masaz
               </a>
+              <a className="text-white font-opensans" href="#cosmetic">
+                Kosmetologia
+              </a>
             </div>
           </div>
           <div>
