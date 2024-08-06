@@ -39,6 +39,43 @@ export default function Home() {
         </div>
         <div className="px-2">
           <H2>Specjalne oferty!</H2>
+          <div className=" h-[512px] w-auto flex flex-col  relative rounded-xl overflow-hidden mb-4 sm:max-w-4xl sm:mx-auto">
+            <Image
+              src="/offer.jpg"
+              fill
+              style={{ objectFit: "cover" }}
+              alt="Zniżka -65% Całkowite bikini i Pachy "
+              className="-z-10"
+            />
+            <div>
+              <div className="flex flex-col gap-4 p-4 sm:px-24 sm:py-14">
+                <h2 className="font-montserrat font-medium text-2xl">Zniżka</h2>
+
+                <span className="font-montserrat font-bold text-[#8B5132] text-5xl">
+                  -65%
+                </span>
+
+                <div>
+                  <p className="font-opensans ">- Bikini</p>
+                  <p>- Pachy</p>
+                  <p>- Całe nogi</p>
+                </div>
+                <p className="font-opensans text-xs">
+                  * ilosc miejsc ograniczona
+                </p>
+                <div className="flex flex-col">
+                  <span className="line-through	font-montserrat font-semibold">
+                    480 zł
+                  </span>
+                  <span className="font-montserrat text-3xl font-bold text-[#8B5132]">
+                    260 zł
+                  </span>
+                </div>
+
+                <Button href="/">Zapisz się</Button>
+              </div>
+            </div>
+          </div>
           <div className="flex flex-col sm:flex-row sm:max-w-7xl mx-auto gap-6">
             <ServiceCard
               heading="Profesjonalna Depilacja Męska"
