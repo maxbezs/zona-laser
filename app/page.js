@@ -110,7 +110,7 @@ export default function Home() {
         <div className="p-2">
           <H2>Masaz</H2>
           <Suspense fallback={"Loading..."}>
-            <Video url="/laser-video.mp4" />
+            <Video url="/massage.mp4" />
           </Suspense>
           <div className="flex w-full flex-col sm:flex-row sm:flex-wrap sm:max-w-6xl sm:mx-auto">
             {massageInfo.map((section, index) => (
